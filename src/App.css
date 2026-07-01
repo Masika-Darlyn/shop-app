@@ -1,0 +1,14 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.header {
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+}
+
+.content {
+  padding: 20px;
+}
