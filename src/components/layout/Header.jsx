@@ -27,7 +27,7 @@ function Header() {
             fontWeight: "bold",
           }}
         >
-          ShopCloud
+          ShopApp
         </Typography>
 
         <IconButton color="inherit">

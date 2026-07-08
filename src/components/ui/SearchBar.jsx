@@ -1,14 +1,17 @@
 import { TextField } from "@mui/material";
 
-function SearchBar() {
+export default function SearchBar() {
   return (
     <TextField
       fullWidth
       placeholder="Search products..."
       variant="outlined"
-      sx={{ mt: 2 }}
+      sx={{
+        mt: 2,
+        mb: 2,
+        background: "#fff",
+        borderRadius: 2,
+      }}
     />
   );
 }
-
-export default SearchBar;
