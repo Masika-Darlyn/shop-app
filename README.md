@@ -1,16 +1,14 @@
-# React + Vite
+echo "# Shop Cloud - E-commerce App" > README.md
+echo "" >> README.md
+echo "A modern e-commerce application built with React, Vite, and Firebase." >> README.md
+echo "" >> README.md
+echo "## Features" >> README.md
+echo "- User Authentication (Login/Register)" >> README.md
+echo "- Product Browsing" >> README.md
+echo "- Shopping Cart" >> README.md
+echo "- Responsive Design" >> README.md
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Add, commit, and push
+git add README.md
+git commit -m "Add README"
+git push
